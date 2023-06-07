@@ -13,16 +13,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Scanned Text Here"
+        android:textSize="18sp"
         android:id="@+id/txtScanned"
         android:layout_gravity="center_horizontal"/>
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:backgroundTint="@color/black"
-        android:text="SCAN and STORE"
+        android:text="SCAN"
         android:layout_margin="10dp"
         android:id="@+id/btnScan" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/black"
+        android:text="SAVE TO FIRESTORE"
+        android:layout_margin="10dp"
+        android:id="@+id/btnFirestore" />
 
 
 </LinearLayout>
